@@ -5,19 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Chu's China Bistro</title>
-    <link rel="stylesheet" href="/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <!-- File CSS Native -->
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
-                    <a href="index.html" class="">
-                        <div id="logo-img" alt="Logo image"></div>
+                    <a href="index.html" >
+                        <div id="logo-img" class="d-none d-sm-block visible-md visible-lg" alt="Logo image"></div>
                     </a>
+                    
+                    <div class="navbar-brand">
+                        <a href="index.html">
+                            <h1>David Chu's China Bistro</h1>
+                        </a>
+                        <p>
+                            <img src="img/star-k-logo.png" alt="Kosher certification">
+                            <span>Kosher Certified</span>
+                        </p>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -26,8 +39,8 @@
 
     
     <!-- JQuery (Bootstrap Js plugins) -->
-    <script src="/jquery.js"></script>
-    <script src="/bootstrap.min.js"></script>
+    <script src="bootstrap-5.0.1-dist/js/bootstrap.min.js"></script>
+    <script src="jquery.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
